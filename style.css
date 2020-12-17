@@ -3,13 +3,23 @@ html{
 }
 body{
     background-repeat: no-repeat;
- background-size: cover;
- background-image: url(images/great-coffee-bean.jpeg);
+    background-size: cover;
+    background-image: url(images/great-coffee-bean.jpeg);
     background-color: rgba(110, 134, 141, 0.911);
     background-position: center;
 
 
 }
+ .contact img{ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/great-coffee-bean.jpeg);
+    height: 100px;
+    width: 150px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;}
+
 
 img{
     height: 100px;
@@ -34,10 +44,31 @@ nav{
     text-align: center;
     padding-top: 14px;
     padding-bottom: 14px;
-    
+ 
+}
+.navbar-links ul {
+    margin: 0;
+        padding: 0;
+        display: flex;
+         text-align: center;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        display: block;
+        padding: 1rem;
+        list-style: none;
+   
+}
+/* .menu li{ */
     
 
-}main{
+/* } */
+.navbar-links li:hover{
+    background-color: rgba(216, 191, 216, 0.746);
+   
+}
+
+main{
     /* background-color: orange; */
     height: 400px;
     text-align: center;
@@ -76,6 +107,8 @@ nav a{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+
 footer p{
     font-size: 12px;
     text-align: center;
@@ -85,5 +118,19 @@ footer p{
     padding-bottom: 100px;
     
 
+}
+.maps{
+    padding-bottom: 100px;
+}
+.logo{
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgba(119, 115, 115, 0.39);
+    /* height: 40px; */
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    
+    
 }
 
