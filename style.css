@@ -1,13 +1,21 @@
 html{
     height: 100%;
+    background-image: url(images/great-coffee-bean.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 body{
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(images/great-coffee-bean.jpeg);
-    background-color: rgba(110, 134, 141, 0.911);
+    
+    
+    /*background-color: rgba(110, 134, 141, 0.911);*/
     background-position: center;
 
+    
+    
 
 }
  .contact img{ 
@@ -64,7 +72,8 @@ nav{
 
 /* } */
 .navbar-links li:hover{
-    background-color: rgba(216, 191, 216, 0.746);
+    /*background-color: rgba(216, 191, 216, 0.746);*/
+    text-decoration: underline;
    
 }
 
@@ -82,12 +91,18 @@ h1{
     color: white;
     font-family:Arial, Helvetica, sans-serif;
 }
+h2{
+    font-size: 30px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 p{
     font-style: italic;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: center;
+    font-weight: bold;
 }
 footer{
     background-color:rgba(21, 20, 22, 0.644);
@@ -114,11 +129,7 @@ footer p{
     text-align: center;
     color: aliceblue;
 }
-.video{
-    padding-bottom: 100px;
-    
 
-}
 .maps{
     padding-bottom: 100px;
 }
